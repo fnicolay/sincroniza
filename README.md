@@ -6,6 +6,7 @@ MySQL 7.4.30
 
 Orientações de instalação e execução do ambiente:
 Colocar os arquivos no diretório desejado e alterar as configurações de acesso ao banco de dados no arquivo "gravar.php"
+O dump do banco de dados se encontra em desafio1/sincroniza.sql
 
 Orientações de execução do código e de seus testes;
 Para executar basta acessar a url onde o código foi salvo.
@@ -20,7 +21,7 @@ Android API 33
 
 
 Orientações de instalação e execução do ambiente:
-Basta colocar no dispositivo Android o arquivo "sincroniza.apk" que está no diretório mobile e instalar.
+Basta colocar no dispositivo Android o arquivo "sincroniza.apk" que está no diretório desafio1/mobile e instalar.
 
 Orientações de execução do código e de seus testes;
 Para executar basta acessar o aplicativo Sincroniza no celular.
