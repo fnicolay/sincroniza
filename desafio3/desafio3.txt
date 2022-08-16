@@ -1,9 +1,0 @@
-SELECT concat(u.firstname,'',u.lastname) as `nome_completo`, u.email as `email`, c.fullname as `nome_curso`,g.name as `nome_grupo`
-FROM user u
-INNER JOIN role_assignments ra ON ra.userid = u.id
-INNER JOIN context ct ON ct.id = ra.contextid
-INNER JOIN course c ON c.id = ct.instanceid
-INNER JOIN groups g ON g.courseid = c.id
-INNER JOIN role r ON r.id = ra.roleid
-INNER JOIN course_categories cc ON cc.id = c.category
-WHERE r.id =5
